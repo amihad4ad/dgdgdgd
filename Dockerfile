@@ -1,5 +1,5 @@
 # Super JinX Panel: PasarGuard + Xray core + nginx in one Railway service (port 8080)
-FROM pasarguard/node:v0.5.4
+FROM pasarguard/node:v0.5.4 AS node
 
 FROM pasarguard/panel:v5.4.1
 
